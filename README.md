@@ -111,6 +111,8 @@ The synthetic corpus intentionally contains:
               |
               +----------- REST API -------------+
 
+---
+
 ## How to Run Locally
 
 ### 1. Clone the repository
