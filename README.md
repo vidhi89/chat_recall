@@ -110,3 +110,11 @@ The synthetic corpus intentionally contains:
               |              Retrieval Engine
               |
               +----------- REST API -------------+
+
+## How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/vidhi89/chat_recall.git
+cd chat_recall
