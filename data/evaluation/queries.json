@@ -1,0 +1,289 @@
+[
+    {
+      "id": "q01",
+      "query": "Where did we finally decide to go?",
+      "answer_message_id": "msg_0032",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q02",
+      "query": "What destination did everyone settle on?",
+      "answer_message_id": "msg_0032",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q03",
+      "query": "Which place was selected for the trip?",
+      "answer_message_id": "msg_0032",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q04",
+      "query": "What was the final trip destination?",
+      "answer_message_id": "msg_0032",
+      "hard": false,
+      "type": "decision"
+    },
+    {
+      "id": "q05",
+      "query": "Did we settle on Manali or Kasol?",
+      "answer_message_id": "msg_0032",
+      "hard": false,
+      "type": "decision"
+    },
+  
+    {
+      "id": "q06",
+      "query": "Which venue did we ultimately choose?",
+      "answer_message_id": "msg_0063",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q07",
+      "query": "Where are we holding the college event?",
+      "answer_message_id": "msg_0063",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q08",
+      "query": "What location was selected for the campus gathering?",
+      "answer_message_id": "msg_0063",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q09",
+      "query": "What did we settle on for the event?",
+      "answer_message_id": "msg_0063",
+      "hard": false,
+      "type": "decision"
+    },
+    {
+      "id": "q10",
+      "query": "Did we choose the auditorium or seminar hall?",
+      "answer_message_id": "msg_0063",
+      "hard": false,
+      "type": "decision"
+    },
+  
+    {
+      "id": "q11",
+      "query": "Which technologies did we settle on for the project?",
+      "answer_message_id": "msg_0094",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q12",
+      "query": "What frontend and backend setup did we finally choose?",
+      "answer_message_id": "msg_0094",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q13",
+      "query": "What technology stack did we settle on?",
+      "answer_message_id": "msg_0094",
+      "hard": false,
+      "type": "decision"
+    },
+    {
+      "id": "q14",
+      "query": "Which framework combination did everyone agree to use?",
+      "answer_message_id": "msg_0094",
+      "hard": true,
+      "type": "decision"
+    },
+    {
+      "id": "q15",
+      "query": "What did the team decide for the project stack?",
+      "answer_message_id": "msg_0094",
+      "hard": false,
+      "type": "decision"
+    },
+  
+    {
+      "id": "q16",
+      "query": "What did Priya say about the trip budget?",
+      "answer_message_id": "msg_0006",
+      "hard": false,
+      "type": "person"
+    },
+    {
+      "id": "q17",
+      "query": "What was Priya's maximum budget for the trip?",
+      "answer_message_id": "msg_0006",
+      "hard": false,
+      "type": "person"
+    },
+    {
+      "id": "q18",
+      "query": "What did Priya mention about activities in Manali?",
+      "answer_message_id": "msg_0022",
+      "hard": false,
+      "type": "person"
+    },
+    {
+      "id": "q19",
+      "query": "What was Priya's view on Manali?",
+      "answer_message_id": "msg_0022",
+      "hard": false,
+      "type": "person"
+    },
+    {
+      "id": "q20",
+      "query": "What did Rahul say when the trip decision was made?",
+      "answer_message_id": "msg_0032",
+      "hard": false,
+      "type": "person"
+    },
+  
+    {
+      "id": "q21",
+      "query": "What did Neha say about the auditorium?",
+      "answer_message_id": "msg_0035",
+      "hard": false,
+      "type": "person"
+    },
+    {
+      "id": "q22",
+      "query": "What did Karan ask about the projector?",
+      "answer_message_id": "msg_0044",
+      "hard": false,
+      "type": "person"
+    },
+    {
+      "id": "q23",
+      "query": "What did Karan say about the venue choice?",
+      "answer_message_id": "msg_0051",
+      "hard": false,
+      "type": "person"
+    },
+    {
+      "id": "q24",
+      "query": "What did Priya say about the project frontend?",
+      "answer_message_id": "msg_0076",
+      "hard": false,
+      "type": "person"
+    },
+    {
+      "id": "q25",
+      "query": "What did Neha say about FastAPI?",
+      "answer_message_id": "msg_0085",
+      "hard": false,
+      "type": "person"
+    },
+  
+    {
+      "id": "q26",
+      "query": "What happened in the trip discussion in July?",
+      "answer_message_id": "msg_0032",
+      "hard": false,
+      "type": "time"
+    },
+    {
+      "id": "q27",
+      "query": "What decision was made about the event in June?",
+      "answer_message_id": "msg_0063",
+      "hard": false,
+      "type": "time"
+    },
+    {
+      "id": "q28",
+      "query": "What decision did we make about the project in August?",
+      "answer_message_id": "msg_0094",
+      "hard": false,
+      "type": "time"
+    },
+    {
+      "id": "q29",
+      "query": "What happened in the technology discussion last month?",
+      "answer_message_id": "msg_0094",
+      "hard": false,
+      "type": "time"
+    },
+    {
+      "id": "q30",
+      "query": "What was discussed around the project stack in August?",
+      "answer_message_id": "msg_0094",
+      "hard": false,
+      "type": "time"
+    },
+  
+    {
+      "id": "q31",
+      "query": "When did we decide where to go?",
+      "answer_message_id": "msg_0032",
+      "hard": false,
+      "type": "semantic"
+    },
+    {
+      "id": "q32",
+      "query": "Which option was ultimately picked for the event?",
+      "answer_message_id": "msg_0063",
+      "hard": true,
+      "type": "semantic"
+    },
+    {
+      "id": "q33",
+      "query": "What tools were chosen for building the project?",
+      "answer_message_id": "msg_0094",
+      "hard": true,
+      "type": "semantic"
+    },
+    {
+      "id": "q34",
+      "query": "Where did the group land for the getaway?",
+      "answer_message_id": "msg_0032",
+      "hard": true,
+      "type": "semantic"
+    },
+    {
+      "id": "q35",
+      "query": "Which room did everyone agree to use?",
+      "answer_message_id": "msg_0063",
+      "hard": true,
+      "type": "semantic"
+    },
+  
+    {
+      "id": "q36",
+      "query": "What was the final answer after comparing Manali and Kasol?",
+      "answer_message_id": "msg_0032",
+      "hard": false,
+      "type": "semantic"
+    },
+    {
+      "id": "q37",
+      "query": "What did the group conclude after comparing the venue options?",
+      "answer_message_id": "msg_0063",
+      "hard": false,
+      "type": "semantic"
+    },
+    {
+      "id": "q38",
+      "query": "What did everyone agree to use for the application?",
+      "answer_message_id": "msg_0094",
+      "hard": false,
+      "type": "semantic"
+    },
+    {
+      "id": "q39",
+      "query": "Which choice was confirmed after the discussion about the trip?",
+      "answer_message_id": "msg_0032",
+      "hard": false,
+      "type": "semantic"
+    },
+    {
+      "id": "q40",
+      "query": "What was the conclusion of the technology discussion?",
+      "answer_message_id": "msg_0094",
+      "hard": false,
+      "type": "semantic"
+    }
+  ]

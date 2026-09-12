@@ -1,59 +1,112 @@
 # ChatRecall
 
-> Search your chat by what you remember, not what was written.
+> **Search your chat by what you remember, not what was written.**
 
-ChatRecall is a semantic search engine designed for messy group conversations.
+ChatRecall is a semantic search engine for messy group conversations.
 
-## Problem
-
-Traditional keyword search fails when users remember the meaning of a conversation but not the exact words used.
+Instead of requiring exact keywords, ChatRecall lets you search a group chat using the meaning of what you remember.
 
 For example:
 
-**Query:**
+> **"Which room did everyone agree to use?"**
 
-> When did we finally decide where to go?
+can retrieve:
 
-**Chat message:**
+> **"Let's do the seminar hall."**
 
-> Done bhai, Manali locked.
+even though the query and answer do not share the important words.
 
-The query and answer may have zero words in common, but they have the same meaning.
+---
 
-## Features
+## Why ChatRecall?
 
-- Semantic conversation search
-- Zero-word-overlap retrieval
-- Person-aware search
-- Time-aware search
-- Conversation context
-- Decision-aware ranking
-- Search evaluation
-- Hinglish and code-mixed conversation support
+Group chats are difficult to search.
 
-## Project Status
+People remember:
 
-Phase 1 — Foundation
+- what the group decided
+- what a particular person said
+- what happened around a certain time
+- the general meaning of a conversation
 
-- [x] Project structure
-- [x] Python environment
-- [x] FastAPI backend
-- [x] Frontend skeleton
-- [ ] Synthetic chat corpus
-- [ ] Embedding engine
-- [ ] Semantic retrieval
-- [ ] Query routing
-- [ ] Evaluation
-- [ ] Production demo
+But chat search usually depends heavily on exact words.
+
+ChatRecall focuses on **semantic retrieval** and adds awareness of:
+
+- conversation intent
+- participants
+- time ranges
+- topics
+- decisions
+- surrounding conversation context
+
+---
+
+## Key Features
+
+### Semantic Search
+
+Find messages based on meaning rather than exact keyword matching.
+
+### Decision-Aware Retrieval
+
+Final decisions are ranked above long discussions and intermediate suggestions.
+
+Examples:
+
+- "Where did we finally decide to go?"
+- "Which room did everyone agree to use?"
+- "What technologies did we settle on?"
+
+### Person-Aware Search
+
+Search for what a particular participant said or asked.
+
+Example:
+
+> "What did Karan ask about the projector?"
+
+### Time-Aware Search
+
+Search within natural-language time ranges.
+
+Example:
+
+> "What did we discuss last month?"
+
+### Conversation Context
+
+Results include surrounding messages instead of displaying only an isolated matching message.
+
+### Hinglish / Messy Chat
+
+The synthetic corpus intentionally contains:
+
+- Hinglish
+- typos
+- short replies
+- emojis
+- forwarded messages
+- media placeholders
+- informal conversation
+
+---
 
 ## Architecture
 
-Coming soon.
-
-## Evaluation
-
-Coming soon.
-
-## Running the project
-
-Coming soon.
+```text
+                         CHATRECALL
+                             |
+              +--------------+--------------+
+              |                             |
+          Frontend                       Backend
+        HTML/CSS/JS                    FastAPI
+              |                             |
+              |                    +--------+--------+
+              |                    |                 |
+              |              Query Engine       Data Layer
+              |                    |              chat.json
+              |                    |
+              |              Retrieval Engine
+              |
+              +----------- REST API -------------+
