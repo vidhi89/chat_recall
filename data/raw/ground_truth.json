@@ -1,0 +1,20 @@
+[
+  {
+    "message_id": "msg_0032",
+    "thread_id": "trip_manali",
+    "topic": "trip destination",
+    "text": "Done bhai, Manali locked. Book it."
+  },
+  {
+    "message_id": "msg_0063",
+    "thread_id": "event_venue",
+    "topic": "college event venue",
+    "text": "Let's do the seminar hall."
+  },
+  {
+    "message_id": "msg_0094",
+    "thread_id": "project_stack",
+    "topic": "project technology stack",
+    "text": "Theek hai, React + FastAPI karte hain."
+  }
+]
