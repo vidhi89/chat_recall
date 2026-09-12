@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ChatRecall</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="hero">
+
+            <div class="logo">
+                ChatRecall
+            </div>
+
+            <h1>
+                Search your chat by what you remember.
+            </h1>
+
+            <p>
+                Find conversations by meaning, not exact words.
+            </p>
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Try: When did we decide on the trip?"
+                >
+
+                <button id="searchButton">
+                    Search
+                </button>
+
+            </div>
+
+            <div class="examples">
+
+                <button>
+                    When did we decide on the trip?
+                </button>
+
+                <button>
+                    What did Priya say about the budget?
+                </button>
+
+                <button>
+                    What did we discuss last month?
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <section id="results">
+
+            <div class="empty-state">
+                Search your conversations to get started.
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+
+</body>
+</html>

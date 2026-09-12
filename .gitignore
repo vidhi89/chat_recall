@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Generated embeddings
+data/embeddings/
+*.npy
+*.npz
+
+# Evaluation output
+data/evaluation/results*.json
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
