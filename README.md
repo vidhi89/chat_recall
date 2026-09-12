@@ -111,7 +111,7 @@ The synthetic corpus intentionally contains:
               |
               +----------- REST API -------------+
 
----
+```
 
 ## How to Run Locally
 
